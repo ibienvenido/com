@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Abarrotes: La Esquina - Tu tienda de confianza en la esquina, ofreciendo productos básicos y frescos con atención personalizada." />
+<title>Abarrotes: La Esquina</title>
+<!-- Importar fuentes de Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+.container {
+  max-width: 850px;
+  width: 100%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 2rem 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+header {
+  background-color: #F04E23;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+/* Fuente Montserrat para h1, h2 y h3 */
+header h1,
+section h2,
+section h3 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0 0 0.5rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+}
+section h2 {
+  font-size: 2rem;
+}
+section h3 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+}
+/* Texto normal con Roboto */
+p, ul, li {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+}
+ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+/* Ocultar nav */
+nav {
+  display: none;
+}
+section {
+  padding: 2rem;
+  text-align: center;
+}
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.subtema {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+}
+.subtema img {
+  max-width: 150px;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+footer {
+  background-color: #F04E23;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Estilos para el botón verde */
+.boton-verde {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  font-weight: 700;
+  padding: 12px 30px;
+  margin: 2rem auto 3rem auto;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px 12px rgba(40, 167, 69, 0.4);
+  /* Centrar el botón */
+  display: block;
+  width: max-content;
+}
+.boton-verde:hover {
+  background-color: #218838;
+  box-shadow: 0 8px 20px rgba(33, 136, 56, 0.6);
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>Abarrotes: La Esquina</h1>
+  <p><strong>Tu tienda de confianza en la esquina</strong></p>
+</header>
+
+<div style="text-align: center; margin: 1rem 0;">
+  <audio controls>
+    <source src="img/sonido.mp3" type="audio/mpeg" />
+    
+  </audio>
+</div>
+	
+
+<section id="nosotros">
+  <h2>Sobre Nosotros</h2>
+  <img src="img/abarrotes1.jpeg" alt="Nosotros" width="1600" height="1199" />
+  <h3>Nuestra Historia</h3>
+  <p>Somos una tienda de conveniencia local ubicada estratégicamente en la colonia, ofreciendo productos de primera necesidad con calidad y atención personalizada.</p>
+</section>
+
+<section id="productos">
+  <h2>Productos</h2>
+  <p><strong>Abarrotes básicos, encuentra todo lo que necesites para tu despensa diaria.</strong></p>
+  <div class="subtema">
+    <img src="img/fruta_verdura.jpg" alt="Abarrotes Básicos" />
+    <div>
+      <h3>Productos Frescos</h3>
+      <p>Frutas, verduras y alimentos frescos para tu hogar.</p>
+      <ul>
+        <li>Zanahorias</li>
+        <li>Tomates</li>
+        <li>Frutas (manzanas, plátanos, etc.)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="subtema">
+    <img src="img/limpiar.jpg" alt="Artículos de Limpieza" />
+    <div>
+      <h3>Artículos de Limpieza</h3>
+      <p>Todo lo necesario para mantener tu espacio limpio y ordenado.</p>
+      <ul>
+        <li>Detergente</li>
+        <li>Limpiadores multiusos</li>
+        <li>Jabón para trastes</li>
+      </ul>
+    </div>
+  </div>
+  <div class="subtema">
+    <img src="img/dulces.jpeg" alt="Bebidas, Snacks y Dulces" />
+    <div>
+      <h3>Bebidas, Snacks y Dulces</h3>
+      <p>Refrescos, agua y bebidas energéticas, etc. Perfectos para disfrutar en cualquier momento.</p>
+      <ul>
+        <li>Refrescos (varios sabores)</li>
+        <li>Agua embotellada</li>
+        <li>Dulces variados</li>
+      </ul>
+    </div>
+  </div>
+</section>
+	
+<div style="text-align: center;">
+  <video width="600" controls poster="VIDEO.MP4">
+    <source src="img/video.mp4" type="video/mp4">
+  </video>
+</div>
+	
+
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <div class="subtema" style="justify-content: center;">
+    <div>
+      <p><strong>Dirección:</strong> Prolongación Marco Antonio Muñoz, Zona Urbana Ejidal.</p>
+      <p><strong>Teléfono:</strong> 288 119 4354</p>
+    </div>
+  </div>
+</section>
+	
+<div style="text-align: center; margin: 1rem 0;">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ablaesquinaa@gmail.com&su=Consulta%20Abarrotes%20La%20Esquina&body=Hola,%20me%20gustaría%20más%20información." 
+     target="_blank" rel="noopener" 
+     style="font-weight: bold; color: #F04E23; text-decoration: none;">
+    Enviar correo a Gmail
+  </a>
+</div>
+	
+	<div style="text-align: center; margin: 1rem 0; font-weight: bold; color: #333;">
+  <span id="contador"></span>
+</div>
+<script>
+  var visitas = localStorage.getItem('visitas') || 0;
+  visitas++;
+  localStorage.setItem('visitas', visitas);
+  document.getElementById('contador').textContent = "Visitas a esta página: " + visitas;
+</script>
+	
+
+	
+	
+
+
+<footer>
+  <p>&nbsp;</p>
+</footer>
+</div>
+	
+	
+	
+</body>
+</html>
